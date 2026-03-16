@@ -1,18 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import hero from '../assets/hero.png'
 import Card from '../component/Card';
 import { Link } from 'react-router-dom';
+import useData from '../hooks/useData';
 
 const Home = () => {
-    const [data, setData] = useState([])
-    const fetchData = async () => {
-        const data = await fetch('data.json').then(res => res.json())
-        setData(data)
-    }
+    const { data } = useData();
 
-    useEffect(() => {
-        fetchData()
-    }, [])
 
     return (
         <div>
