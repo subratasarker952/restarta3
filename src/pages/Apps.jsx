@@ -48,7 +48,7 @@ const Apps = () => {
             {/* Apps Grid */}
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6'>
                 {filteredData.length > 0 ? (
-                    filteredData.slice(-8).map((d) => <Card key={d.id} data={d} />)
+                    filteredData.map((d) => <Card key={d.id} data={d} />)
                 ) : (
                     <p className="col-span-full text-center text-gray-500 mt-10">No apps found.</p>
                 )}
