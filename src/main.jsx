@@ -6,6 +6,7 @@ import Layout from './layout/Layout'
 import Apps from './pages/Apps'
 import Installation from './pages/Installation'
 import Home from './pages/Home'
+import Notfound from './pages/Notfound'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: 'installation',
         element: <Installation />
+      },
+      {
+        path: '*',
+        element: <Notfound />
       }
     ]
   },
