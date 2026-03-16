@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const useData = () => {
     const [data, setData] = useState([])
     const fetchData = async () => {
-        const data = await fetch('data.json').then(res => res.json())
+        const data = await fetch('/data.json').then(res => res.json())
         setData(data)
     }
 

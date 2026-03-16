@@ -1,17 +1,18 @@
 import { Download, Star } from 'lucide-react';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Card = ({ data }) => {
-    const { image, title, downloads, ratingAvg } = data;
+    const { id, image, title, downloads, ratingAvg } = data;
 
     const formatNumber = (num) => {
-      if (num >= 1_000_000) return (num / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
-      if (num >= 1_000) return (num / 1_000).toFixed(1).replace(/\.0$/, '') + 'k';
-      return num;
+        if (num >= 1_000_000) return (num / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
+        if (num >= 1_000) return (num / 1_000).toFixed(1).replace(/\.0$/, '') + 'k';
+        return num;
     };
 
     return (
-        <div className="card bg-base-100 shadow-sm">
+        <Link to={`/apps/${id}`} className="card bg-base-100 shadow-sm">
             <figure className='p-2'>
                 <img
                     className='rounded-xl min-h-48'
@@ -29,7 +30,7 @@ const Card = ({ data }) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 };
 
