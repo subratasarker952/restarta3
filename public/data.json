@@ -1,0 +1,303 @@
+[
+    {
+      "id": 1,
+      "title": "Photo Editor Pro",
+      "companyName": "CreativeSoft",
+      "image": "https://source.unsplash.com/600x400/?photo,editing",
+      "description": "Advanced photo editing tools with filters and AI enhancements.",
+      "size": 85,
+      "reviews": 5421,
+      "ratingAvg": 4.6,
+      "downloads": 250000,
+      "ratings": [
+        {"name":"1 star","count":120},
+        {"name":"2 star","count":210},
+        {"name":"3 star","count":560},
+        {"name":"4 star","count":2100},
+        {"name":"5 star","count":2431}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Fitness Tracker",
+      "companyName": "HealthTech",
+      "image": "https://source.unsplash.com/600x400/?fitness,workout",
+      "description": "Track workouts, calories and health metrics.",
+      "size": 60,
+      "reviews": 3890,
+      "ratingAvg": 4.4,
+      "downloads": 180000,
+      "ratings": [
+        {"name":"1 star","count":90},
+        {"name":"2 star","count":180},
+        {"name":"3 star","count":540},
+        {"name":"4 star","count":1500},
+        {"name":"5 star","count":1580}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Music Stream",
+      "companyName": "SoundWave",
+      "image": "https://source.unsplash.com/600x400/?music,headphones",
+      "description": "Stream songs and create playlists easily.",
+      "size": 95,
+      "reviews": 7200,
+      "ratingAvg": 4.7,
+      "downloads": 500000,
+      "ratings": [
+        {"name":"1 star","count":110},
+        {"name":"2 star","count":200},
+        {"name":"3 star","count":700},
+        {"name":"4 star","count":3000},
+        {"name":"5 star","count":3190}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Food Delivery",
+      "companyName": "QuickBite",
+      "image": "https://source.unsplash.com/600x400/?food,delivery",
+      "description": "Order food online from nearby restaurants.",
+      "size": 72,
+      "reviews": 6100,
+      "ratingAvg": 4.5,
+      "downloads": 320000,
+      "ratings": [
+        {"name":"1 star","count":140},
+        {"name":"2 star","count":260},
+        {"name":"3 star","count":840},
+        {"name":"4 star","count":2400},
+        {"name":"5 star","count":2460}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Travel Guide",
+      "companyName": "ExploreWorld",
+      "image": "https://source.unsplash.com/600x400/?travel,city",
+      "description": "Plan trips and discover travel destinations.",
+      "size": 68,
+      "reviews": 2750,
+      "ratingAvg": 4.3,
+      "downloads": 120000,
+      "ratings": [
+        {"name":"1 star","count":60},
+        {"name":"2 star","count":150},
+        {"name":"3 star","count":450},
+        {"name":"4 star","count":1050},
+        {"name":"5 star","count":1040}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Weather Forecast",
+      "companyName": "SkyTech",
+      "image": "https://source.unsplash.com/600x400/?weather,clouds",
+      "description": "Accurate weather predictions and alerts.",
+      "size": 45,
+      "reviews": 4100,
+      "ratingAvg": 4.5,
+      "downloads": 210000,
+      "ratings": [
+        {"name":"1 star","count":80},
+        {"name":"2 star","count":150},
+        {"name":"3 star","count":450},
+        {"name":"4 star","count":1600},
+        {"name":"5 star","count":1820}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Note Keeper",
+      "companyName": "SmartApps",
+      "image": "https://source.unsplash.com/600x400/?notes,writing",
+      "description": "Simple and powerful note taking app.",
+      "size": 30,
+      "reviews": 3200,
+      "ratingAvg": 4.2,
+      "downloads": 150000,
+      "ratings": [
+        {"name":"1 star","count":120},
+        {"name":"2 star","count":200},
+        {"name":"3 star","count":600},
+        {"name":"4 star","count":1200},
+        {"name":"5 star","count":1080}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Video Player HD",
+      "companyName": "MediaTech",
+      "image": "https://source.unsplash.com/600x400/?video,player",
+      "description": "Play all video formats with HD support.",
+      "size": 55,
+      "reviews": 4700,
+      "ratingAvg": 4.4,
+      "downloads": 230000,
+      "ratings": [
+        {"name":"1 star","count":100},
+        {"name":"2 star","count":200},
+        {"name":"3 star","count":700},
+        {"name":"4 star","count":1800},
+        {"name":"5 star","count":1900}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Task Manager",
+      "companyName": "ProductiveLab",
+      "image": "https://source.unsplash.com/600x400/?task,productivity",
+      "description": "Manage tasks and boost productivity.",
+      "size": 40,
+      "reviews": 2900,
+      "ratingAvg": 4.3,
+      "downloads": 140000,
+      "ratings": [
+        {"name":"1 star","count":90},
+        {"name":"2 star","count":180},
+        {"name":"3 star","count":500},
+        {"name":"4 star","count":1100},
+        {"name":"5 star","count":1030}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Language Learner",
+      "companyName": "EduTech",
+      "image": "https://source.unsplash.com/600x400/?language,learning",
+      "description": "Learn new languages with interactive lessons.",
+      "size": 75,
+      "reviews": 5100,
+      "ratingAvg": 4.6,
+      "downloads": 270000,
+      "ratings": [
+        {"name":"1 star","count":100},
+        {"name":"2 star","count":160},
+        {"name":"3 star","count":520},
+        {"name":"4 star","count":2100},
+        {"name":"5 star","count":2220}
+      ]
+    },
+  
+    {
+      "id": 11,
+      "title": "Meditation Guide",
+      "companyName": "CalmMind",
+      "image": "https://source.unsplash.com/600x400/?meditation,relax",
+      "description": "Relax and meditate with guided sessions.",
+      "size": 50,
+      "reviews": 2600,
+      "ratingAvg": 4.5,
+      "downloads": 130000,
+      "ratings":[{"name":"1 star","count":70},{"name":"2 star","count":140},{"name":"3 star","count":380},{"name":"4 star","count":980},{"name":"5 star","count":1030}]
+    },
+    {
+      "id": 12,
+      "title": "Recipe Book",
+      "companyName": "KitchenSoft",
+      "image": "https://source.unsplash.com/600x400/?recipe,cooking",
+      "description": "Discover tasty recipes from around the world.",
+      "size": 65,
+      "reviews": 3300,
+      "ratingAvg": 4.4,
+      "downloads": 175000,
+      "ratings":[{"name":"1 star","count":90},{"name":"2 star","count":160},{"name":"3 star","count":540},{"name":"4 star","count":1300},{"name":"5 star","count":1210}]
+    },
+    {
+      "id": 13,
+      "title": "File Manager",
+      "companyName": "TechCore",
+      "image": "https://source.unsplash.com/600x400/?files,folder",
+      "description": "Manage files and storage easily.",
+      "size": 35,
+      "reviews": 2900,
+      "ratingAvg": 4.3,
+      "downloads": 160000,
+      "ratings":[{"name":"1 star","count":100},{"name":"2 star","count":200},{"name":"3 star","count":600},{"name":"4 star","count":1100},{"name":"5 star","count":900}]
+    },
+    {
+      "id": 14,
+      "title": "News Today",
+      "companyName": "DailyMedia",
+      "image": "https://source.unsplash.com/600x400/?news,newspaper",
+      "description": "Get the latest news updates worldwide.",
+      "size": 48,
+      "reviews": 3500,
+      "ratingAvg": 4.2,
+      "downloads": 170000,
+      "ratings":[{"name":"1 star","count":120},{"name":"2 star","count":240},{"name":"3 star","count":720},{"name":"4 star","count":1300},{"name":"5 star","count":1120}]
+    },
+    {
+      "id": 15,
+      "title": "Calculator Plus",
+      "companyName": "MathSoft",
+      "image": "https://source.unsplash.com/600x400/?calculator,math",
+      "description": "Advanced scientific calculator.",
+      "size": 20,
+      "reviews": 2100,
+      "ratingAvg": 4.5,
+      "downloads": 110000,
+      "ratings":[{"name":"1 star","count":50},{"name":"2 star","count":90},{"name":"3 star","count":250},{"name":"4 star","count":820},{"name":"5 star","count":890}]
+    },
+    {
+      "id": 16,
+      "title": "Budget Planner",
+      "companyName": "FinanceApps",
+      "image": "https://source.unsplash.com/600x400/?finance,budget",
+      "description": "Track income and expenses easily.",
+      "size": 58,
+      "reviews": 3000,
+      "ratingAvg": 4.4,
+      "downloads": 140000,
+      "ratings":[{"name":"1 star","count":80},{"name":"2 star","count":160},{"name":"3 star","count":520},{"name":"4 star","count":1200},{"name":"5 star","count":1040}]
+    },
+    {
+      "id": 17,
+      "title": "Online Courses",
+      "companyName": "SkillBoost",
+      "image": "https://source.unsplash.com/600x400/?online,education",
+      "description": "Learn new skills from top instructors.",
+      "size": 92,
+      "reviews": 4500,
+      "ratingAvg": 4.6,
+      "downloads": 260000,
+      "ratings":[{"name":"1 star","count":100},{"name":"2 star","count":150},{"name":"3 star","count":450},{"name":"4 star","count":2000},{"name":"5 star","count":1800}]
+    },
+    {
+      "id": 18,
+      "title": "Map Navigator",
+      "companyName": "GeoTech",
+      "image": "https://source.unsplash.com/600x400/?map,navigation",
+      "description": "Navigate anywhere with smart GPS.",
+      "size": 70,
+      "reviews": 3800,
+      "ratingAvg": 4.5,
+      "downloads": 210000,
+      "ratings":[{"name":"1 star","count":90},{"name":"2 star","count":170},{"name":"3 star","count":540},{"name":"4 star","count":1600},{"name":"5 star","count":1400}]
+    },
+    {
+      "id": 19,
+      "title": "Wallpaper HD",
+      "companyName": "PixelArt",
+      "image": "https://source.unsplash.com/600x400/?wallpaper,abstract",
+      "description": "Download beautiful HD wallpapers.",
+      "size": 42,
+      "reviews": 3100,
+      "ratingAvg": 4.3,
+      "downloads": 150000,
+      "ratings":[{"name":"1 star","count":100},{"name":"2 star","count":180},{"name":"3 star","count":600},{"name":"4 star","count":1200},{"name":"5 star","count":1020}]
+    },
+    {
+      "id": 20,
+      "title": "Cloud Storage",
+      "companyName": "DataSync",
+      "image": "https://source.unsplash.com/600x400/?cloud,storage",
+      "description": "Store and sync files securely in cloud.",
+      "size": 88,
+      "reviews": 4200,
+      "ratingAvg": 4.5,
+      "downloads": 240000,
+      "ratings":[{"name":"1 star","count":110},{"name":"2 star","count":200},{"name":"3 star","count":620},{"name":"4 star","count":1700},{"name":"5 star","count":1570}]
+    }
+  ]
