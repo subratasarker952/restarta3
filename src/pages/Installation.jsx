@@ -58,7 +58,7 @@ const Installation = () => {
                         <div key={d.id} className="flex flex-col md:flex-row gap-3 bg-base-100 shadow-sm items-center">
                             <figure className='p-2 '>
                                 <img
-                                    className='rounded-xl h-24 w-24 bg-gray-200'
+                                    className='rounded-xl h-24 w-24 object-cover'
                                     src={d.image}
                                     alt={d.title} />
                             </figure>
