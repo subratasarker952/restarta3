@@ -8,6 +8,7 @@ import Installation from './pages/Installation'
 import Home from './pages/Home'
 import Notfound from './pages/Notfound'
 import AppDetails from './pages/AppDetails'
+import { AppProvider } from './context/AppContext'
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <AppProvider>
+      <RouterProvider router={router} />
+    </AppProvider>
   </StrictMode>,
 )

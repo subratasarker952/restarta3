@@ -3,6 +3,8 @@ import hero from '../assets/hero.png'
 import Card from '../component/Card';
 import { Link } from 'react-router-dom';
 import useData from '../hooks/useData';
+import play from '../assets/play.png'
+import app from '../assets/app.png'
 
 const Home = () => {
     const { data } = useData();
@@ -30,8 +32,8 @@ bg-size-[10px_10px]">
                         </p>
 
                         <div className="flex gap-4 justify-center mt-5">
-                            <button className="btn btn-outline border-none">Google Play</button>
-                            <button className="btn btn-outline border-none">App Store</button>
+                            <a href='https://play.google.com/store/apps' target='_blank' className="btn btn-outline border-none"><img src={play} className='w-6 h-6'  alt="play store image" />  Google Play</a>
+                            <a href='https://apps.apple.com/us/iphone/apps' target='_blank' className="btn btn-outline border-none"><img src={app} className='w-6 h-6'  alt="app store image" /> App Store</a>
                         </div>
                     </div>
                     <div className='h-[60vh] flex justify-center'>

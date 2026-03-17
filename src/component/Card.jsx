@@ -15,7 +15,7 @@ const Card = ({ data }) => {
         <Link to={`/apps/${id}`} className="card bg-base-100 shadow-sm">
             <figure className='p-2'>
                 <img
-                    className='rounded-xl min-h-48'
+                    className='rounded-xl object-cover w-full h-64'
                     src={image}
                     alt={title} />
             </figure>

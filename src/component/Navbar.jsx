@@ -12,7 +12,7 @@ const Navbar = () => {
         <li><NavLink className={navClass} to={"/installation"}>Installation</NavLink></li>
     </>
     return (
-        <div className="bg-base-100 shadow-sm sticky top-0">
+        <div className="bg-base-100 shadow-sm sticky top-0 z-100">
             <div className="navbar max-w-360 mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -21,7 +21,7 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex="-1"
-                            className="font-bold menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            className="font-bold menu menu-sm dropdown-content bg-base-100 rounded-box mt-3 w-52 p-2 shadow">
                             {navLinks}
                         </ul>
                     </div>

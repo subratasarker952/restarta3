@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import useData from '../hooks/useData';
-import Card from '../component/Card';
 import { Download, Star } from 'lucide-react';
+import useAppsContext from '../context/AppContext';
 
 const Installation = () => {
-    const { data } = useData();
+    const { savedApps, removeSavedApp } = useAppsContext();
 
     const [ratingFilter, setRatingFilter] = useState('all');
 
@@ -15,7 +14,7 @@ const Installation = () => {
     };
 
     // Filtered Apps
-    const filteredData = data.filter(d => {
+    const filteredData = savedApps.filter(d => {
         const matchesRating = ratingFilter === 'all' || d.ratingAvg >= parseFloat(ratingFilter);
         return matchesRating;
     });
@@ -78,7 +77,7 @@ const Installation = () => {
                                 </div>
                             </div>
                             <div className="mr-10">
-                                <button className='btn bg-[#00D390] text-white btn-lg'>Uninstall</button>
+                                <button onClick={() => removeSavedApp(d.id)} className='btn bg-[#00D390] text-white btn-lg'>Uninstall</button>
                             </div>
                         </div>
                     ))
